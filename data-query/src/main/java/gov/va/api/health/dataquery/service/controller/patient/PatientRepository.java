@@ -4,4 +4,6 @@ import gov.va.api.health.autoconfig.logging.Loggable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 @Loggable
-public interface PatientRepository extends PagingAndSortingRepository<PatientEntity, String> {}
+public interface PatientRepository extends PagingAndSortingRepository<PatientEntity, String> {
+  // TODO add DTO projection for bulk search
+}
